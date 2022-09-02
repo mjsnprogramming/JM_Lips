@@ -73,27 +73,41 @@ li {
 }
 
 #nav_min {
+  width: 300px;
+  height: 600px;
+  background-color: #6b6743;
+  position: absolute;
+  right: 50px;
+  top: 100px;
   display: none;
+}
+#nav_min ul {
+  margin-top: -5px;
+}
+#nav_min ul li a {
+  color: white;
+  margin-top: 25px;
+}
+
+#main_header {
+  width: 400px;
+  height: auto;
+  margin-top: 100px;
+  position: absolute;
+  top: 200px;
+  transform: translate(200%, -50%);
+  color: #6b6743;
 }
 
 @media only screen and (max-width: 1300px) {
   #menu ul li {
     display: none;
   }
-  #nav_min {
-    width: 300px;
-    height: 500px;
-    background-color: #6b6743;
+  #menu #nav_min {
     display: flex;
-    position: absolute;
-    right: 50px;
-    top: 100px;
-    color: white;
   }
-  #nav_min ul li a {
+  #menu #nav_min ul li {
     display: flex;
-    flex-direction: column;
-    color: black;
   }
 }
 
