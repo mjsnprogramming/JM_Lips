@@ -52,8 +52,10 @@ li {
 }
 
 #main_img img {
-  width: 1200px;
+  width: 80%;
   height: 900px;
+  border-right: solid black 1px;
+  border-bottom-right-radius: 16px;
 }
 
 footer {
