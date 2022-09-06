@@ -92,11 +92,71 @@ li {
 #main_header {
   width: 400px;
   height: auto;
-  margin-top: 100px;
-  position: absolute;
-  top: 200px;
-  transform: translate(200%, -50%);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   color: #6b6743;
+}
+
+#lips {
+  height: 170px;
+  background-color: blue;
+  margin: 10px auto;
+}
+
+#lips_header {
+  background-color: #42b983;
+  font-size: 24px;
+}
+#lips_header span {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#lips_header,
+#head_header,
+#face_header {
+  height: 70px;
+  margin: 5px auto;
+}
+
+#revitalization,
+#augmentation,
+#mesotherapy_face,
+#mesotherapy_face_neck,
+#mesotherapy_face_neck_cleavage,
+#biorepeel,
+#retix {
+  height: 50px;
+  margin: 5px auto;
+}
+
+#head {
+  height: 220px;
+  margin: 10px auto;
+}
+
+#face {
+  height: 170px;
+  margin: 10px auto;
+}
+
+#lips,
+#lips_header,
+#revitalization,
+#augmentation,
+#head,
+#head_header,
+#mesotherapy_face,
+#mesotherapy_face_neck,
+#mesotherapy_face_neck_cleavage,
+#face,
+#face_header,
+#biorepeel,
+#retix {
+  width: 1000px;
+  background-color: darkgrey;
 }
 
 @media only screen and (max-width: 1300px) {
