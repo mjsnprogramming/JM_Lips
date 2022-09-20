@@ -101,46 +101,6 @@ li {
   margin: 0 auto;
   color: $headerColor;
 }
-
-#lips{
-  height: 170px;
-  background-color: blue;
-  margin: 10px auto;
-}
-#lips_header {
-  background-color: #42b983;
-  font-size: 24px;
-  span {
-    display: inline-block;
-    line-height: normal;
-    vertical-align: middle;
-  }
-}
-#lips_header,
-#head_header,
-#face_header {
-  height: 70px;
-  margin: 5px auto;
-}
-#revitalization,
-#augmentation,
-#mesotherapy_face,
-#mesotherapy_face_neck,
-#mesotherapy_face_neck_cleavage,
-#biorepeel,
-#retix {
-  height: 50px;
-  margin: 5px auto;
-}
-
-#head {
-  height: 220px;
-  margin: 10px auto;
-}
-#face {
-  height: 170px;
-  margin: 10px auto;
-}
 #lips,
 #lips_header,
 #revitalization,
@@ -155,7 +115,148 @@ li {
 #biorepeel,
 #retix {
   width: 1000px;
-  background-color: darkgrey;
+  background-color: #f1f1f1;
+}
+#lips{
+  height: 200px;
+  margin: 10px auto;
+}
+#lips_header {
+  font-size: 24px;
+  color: $headerColor;
+  font-weight: bold;
+
+  span {
+    position: relative;
+    top: 28px;
+    margin-left: 10px;
+  }
+}
+#head_header {
+  font-size: 24px;
+  color: $headerColor;
+  font-weight: bold;
+
+  span {
+    position: relative;
+    top: 28px;
+    margin-left: 10px;
+  }
+}
+#face_header {
+  font-size: 24px;
+  color: $headerColor;
+  font-weight: bold;
+
+  span {
+    position: relative;
+    top: 28px;
+    margin-left: 10px;
+  }
+}
+#lips_header,
+#head_header,
+#face_header {
+  height: 80px;
+  margin: 4px auto;
+}
+.name {
+  height: 30px;
+  width: 1000px;
+  background-color: #aaa678;
+
+  span {
+      position: relative;
+      top: 5px;
+  }
+  span:nth-child(1) {
+      left: 50px;
+  }
+  span:nth-child(2) {
+      left: (450px - 44.42px);
+  }
+}
+#revitalization,
+#augmentation,
+#mesotherapy_face,
+#mesotherapy_face_neck,
+#mesotherapy_face_neck_cleavage,
+#biorepeel,
+#retix {
+  height: 60px;
+  border-top: 1px solid white;
+  font-family: Calibri, sans-serif;
+  span{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+  }
+
+}
+#revitalization,
+#augmentation,
+#mesotherapy_face,
+#mesotherapy_face_neck,
+#mesotherapy_face_neck_cleavage,
+#biorepeel,
+#retix {
+  span:nth-child(2) {
+    position: relative;
+    font-weight: unset;
+    color: $headerColor;
+  }
+}
+#revitalization {
+  span:nth-child(2) {
+    left: (450px - 192.84px);
+  }
+}
+#augmentation {
+  span:nth-child(2) {
+    left: (450px - 252.13px);
+  }
+}
+#mesotherapy_face {
+  span:nth-child(2) {
+    left: (450px - 51.64px);
+  }
+}
+#mesotherapy_face_neck {
+  span:nth-child(2) {
+    left: (450px - 104.02px);
+  }
+}
+#mesotherapy_face_neck_cleavage {
+  span:nth-child(2) {
+    left: (450px - 168.88px);
+  }
+}
+#biorepeel {
+  span:nth-child(2) {
+    left: (450px - 78.38px);
+  }
+}
+#retix {
+  span:nth-child(2) {
+    left: (450px - 54.91px);
+  }
+}
+
+#head {
+  height: 260px;
+  margin: 45px auto;
+}
+#face {
+  height: 200px;
+  margin: 10px auto;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: black;
 }
 
 
@@ -165,11 +266,108 @@ li {
       display: none;
     }
     #nav_min {
-      display: flex;
+      display: none;
       ul li {
-        display: flex;
+        display: none;
       }
     }
   }
-
+}
+@media only screen and (max-width: 1020px) {
+  #lips,
+  #lips_header,
+  #revitalization,
+  #augmentation,
+  #head,
+  #head_header,
+  #mesotherapy_face,
+  #mesotherapy_face_neck,
+  #mesotherapy_face_neck_cleavage,
+  #face,
+  #face_header,
+  #biorepeel,
+  #retix,
+  .name{
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  #lips,
+  #lips_header,
+  #revitalization,
+  #augmentation,
+  #head,
+  #head_header,
+  #mesotherapy_face,
+  #mesotherapy_face_neck,
+  #mesotherapy_face_neck_cleavage,
+  #face,
+  #face_header,
+  #biorepeel,
+  #retix,
+  .name{
+    width: 320px;
+  }
+  #lips_header,
+  #head_header,
+  #face_header{
+    font-size: 18px;
+    text-align: center;
+  }
+  .name {
+    span:nth-child(1) {
+      left: 5px;
+    }
+  }
+  .name {
+    span:nth-child(2) {
+      left: (266px - 44.42px);
+    }
+  }
+  #revitalization,
+  #augmentation,
+  #mesotherapy_face,
+  #mesotherapy_face_neck,
+  #mesotherapy_face_neck_cleavage,
+  #biorepeel,
+  #retix {
+    span{
+      left: 5px;
+    }
+  }
+  #revitalization {
+    span:nth-child(2) {
+      left: (270px - 192.84px);
+    }
+  }
+  #augmentation {
+    span:nth-child(2) {
+      left: (270px - 252.13px);
+    }
+  }
+  #mesotherapy_face {
+    span:nth-child(2) {
+      left: (270px - 51.64px);
+    }
+  }
+  #mesotherapy_face_neck {
+    span:nth-child(2) {
+      left: (270px - 104.02px);
+    }
+  }
+  #mesotherapy_face_neck_cleavage {
+    span:nth-child(2) {
+      left: (270px - 168.88px);
+    }
+  }
+  #biorepeel {
+    span:nth-child(2) {
+      left: (270px - 78.38px);
+    }
+  }
+  #retix {
+    span:nth-child(2) {
+      left: (270px - 54.91px);
+    }
+  }
 }
