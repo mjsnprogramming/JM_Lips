@@ -87,32 +87,4 @@ li {
 #nav_min ul li a {
   color: white;
   margin-top: 25px;
-}
-
-#main_img img {
-  width: 80%;
-  height: 900px;
-  border-bottom-right-radius: 720px;
-}
-
-#main_img p {
-  font-size: 30px;
-}
-
-footer {
-  height: 300px;
-  width: 100%;
-  background-color: black;
-}
-
-@media only screen and (max-width: 1300px) {
-  #menu ul li {
-    display: none;
-  }
-  #menu #nav_min {
-    display: none;
-  }
-  #menu #nav_min ul li {
-    display: none;
-  }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=contact.css.map */

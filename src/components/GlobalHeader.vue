@@ -1,15 +1,4 @@
 <template>
-
-  <!DOCTYPE html>
-  <html lang="pl">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1.0">
-      <title>Julia Majewska Lips</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-      <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
-    </head>
-    <body>
       <header>
         <div id = "menu">
           <div id = "logo">
@@ -40,34 +29,14 @@
           </div>
         </div>
       </header>
-  
-    <main>
-      <div id = "main_img">
-      <img src = "assets/images/main.jpg" alt = "main">
-      <p>Zapraszam  na modelowanie ust i więcej</p>
-      </div>
-    </main>
-  
-    <footer>
-      <div id = "appointment">
-  
-      </div>
-    </footer>
-    </body>
-  </html>
-  </template>
-  
-  <script>
-    import img from 'assets/images/main/jpg';
-    export default {
-      data() {
-        logo: img;
-      }
-    }
-  </script>
-  
-  <style lang = scss>
-  $headerColor: #6b6743;
+</template>
+
+<script>
+    
+</script>
+
+<style lang = scss>
+$headerColor: #6b6743;
   body {
     box-sizing: border-box;
     margin: 0;
@@ -157,29 +126,4 @@
       margin-top: 25px;
     }
   }
-  
-  #main_img img{
-      width: 80%;
-      height: 900px;
-      border-bottom-right-radius: 720px;
-  }
-  #main_img p {
-      font-size: 30px;
-  }
-  footer {
-      height: 300px;
-      width: 100%;
-      background-color: black;
-  }
-  @media only screen and (max-width: 1300px) {
-      #menu ul li {
-        display: none;
-      }
-      #menu #nav_min {
-        display: none;
-      }
-      #menu #nav_min ul li {
-        display: none;
-      }
-    }
-  </style>
+</style>
