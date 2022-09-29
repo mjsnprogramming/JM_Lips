@@ -1,5 +1,8 @@
 <template>
+
+  
       <header>
+      
         <div id = "menu">
           <div id = "logo">
             <a href = "index.html">
@@ -15,7 +18,7 @@
             <li><a href = "contact.html">KONTAKT</a></li>
           </ul>
           <div id = "nav">
-            <i class="fa-solid fa-bars"></i>
+            <font-awesome-icon icon="fa-solid fa-bars"></font-awesome-icon>
           </div>
           <div id = "nav_min">
             <ul>
@@ -126,4 +129,15 @@ $headerColor: #6b6743;
       margin-top: 25px;
     }
   }
+  @media only screen and (max-width: 1300px) {
+      #menu ul li {
+        display: none;
+      }
+      #menu #nav_min {
+        display: none;
+      }
+      #menu #nav_min ul li {
+        display: none;
+      }
+    }
 </style>
