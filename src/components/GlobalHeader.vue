@@ -5,29 +5,29 @@
       
         <div id = "menu">
           <div id = "logo">
-            <a href = "index.html">
+            <a href = "/">
               <p>Julia Majewska</p>
               <p>lips</p>
             </a>
           </div>
           <ul>
-            <li><a href = "about.html">O MNIE</a></li>
-            <li><a href = "offer.html">OFERTA</a></li>
-            <li><a href = "price_list.html">CENNIK</a></li>
-            <li><a href = "sale.html">PROMOCJA</a></li>
-            <li><a href = "contact.html">KONTAKT</a></li>
+            <li><a href = "../About.vue">O MNIE</a></li>
+            <li><a href = "../Offer.vue">OFERTA</a></li>
+            <li><a href = "../PriceList.vue">CENNIK</a></li>
+            <li><a href = "../Sale.vue">PROMOCJA</a></li>
+            <li><a href = "../Contact.vue">KONTAKT</a></li>
           </ul>
           <div id = "nav">
             <font-awesome-icon icon="fa-solid fa-bars"></font-awesome-icon>
           </div>
           <div id = "nav_min">
             <ul>
-              <li><a href = "appointment.html">ZAPISZ SIĘ!</a></li>
-              <li><a href = "about.html">O MNIE</a></li>
-              <li><a href = "offer.html">OFERTA</a></li>
-              <li><a href = "price_list.html">CENNIK</a></li>
-              <li><a href = "sale.html">PROMOCJA</a></li>
-              <li><a href = "contact.html">KONTAKT</a></li>
+              <li><a href = "../Appointment.vue">ZAPISZ SIĘ!</a></li>
+              <li><a href = "../About.vue">O MNIE</a></li>
+              <li><a href = "../Offer.vue">OFERTA</a></li>
+              <li><a href = "../PriceList.vue">CENNIK</a></li>
+              <li><a href = "../Sale.vue">PROMOCJA</a></li>
+              <li><a href = "../Contact.vue">KONTAKT</a></li>
             </ul>
           </div>
         </div>
