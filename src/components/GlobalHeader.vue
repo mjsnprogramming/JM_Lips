@@ -50,7 +50,7 @@ $headerColor: #6b6743;
   #logo {
     position: absolute;
     left: 50px;
-    top: 45px;
+    top: 35px;
     line-height: 5px;
   }
   

@@ -1,14 +1,14 @@
 <template>
     <div id = "pricelist">
     <GlobalHeader></GlobalHeader>
-    <PriceListPage></PriceListPage>
+    <PriceListContent></PriceListContent>
     <GlobalFooter></GlobalFooter>
     </div>
 </template>
 
 <script>
 import GlobalHeader from "./components/GlobalHeader.vue";
-import PriceListPage from "./components/PriceListPage.vue";
+import PriceListContent from "./components/PriceListContent.vue";
 import GlobalFooter from "./components/GlobalFooter.vue";
 
 export default {
@@ -16,7 +16,7 @@ export default {
     components: {
         GlobalHeader,
         GlobalFooter,
-        PriceListPage
+        PriceListContent
     }
 }
 </script>
